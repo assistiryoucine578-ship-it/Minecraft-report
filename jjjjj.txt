@@ -1,0 +1,1746 @@
+--------- Starting game with Launcher Debug!
+Info: Launcher version: hebe-20251017-[dd44b8a]-v3_openjdk
+Info: Architecture: arm64
+Info: Device model: samsung SM-A235M
+Info: API version: 34
+Info: Selected Minecraft version: 1.20.1-forge-47.4.5
+Info: Custom Java arguments: ""
+Info: RAM allocated: 776 Mb
+Info: Graphics device: Qualcomm Adreno (TM) 610 (OpenGL ES 3)
+Added custom env: MOJO_RENDERER=opengles2
+Added custom env: FORCE_VSYNC=false
+Added custom env: LIBGL_MIPMAP=3
+Added custom env: allow_higher_compat_version=true
+Added custom env: MESA_GLSL_CACHE_DIR=/data/user/0/git.artdeell.mojo/cache
+Added custom env: LIBGL_NOINTOVLHACK=1
+Added custom env: POJAV_LOAD_TURNIP=1
+Added custom env: force_glsl_extensions_warn=true
+Added custom env: LIBGL_NORMALIZE=1
+Added custom env: POJAV_VSYNC_IN_ZINK=1
+Added custom env: LIBGL_NOERROR=1
+Added custom env: LIBGL_ES=2
+Added custom env: MESA_GLSL_VERSION_OVERRIDE=460
+Added custom env: allow_glsl_extension_directive_midshader=true
+Initialising gl4es
+v1.1.5 built on Jul 14 2024 19:34:14
+Using GLES 2.0 backend
+loaded: libGLESv2.so
+loaded: libEGL.so
+Using GLES 2.0 backend
+Hardware Full NPOT detected and used
+FBO are in core, and so used
+PointSprite are in core, and so used
+CubeMap are in core, and so used
+BlendColor is in core, and so used
+Blend Subtract is in core, and so used
+Blend Function and Equation Separation is in core, and so used
+Texture Mirrored Repeat is in core, and so used
+Extension GL_OES_element_index_uint  detected and used
+Extension GL_OES_packed_depth_stencil  detected and used
+Extension GL_OES_depth24  detected and used
+Extension GL_OES_rgb8_rgba8  detected and used
+Extension GL_EXT_texture_format_BGRA8888  detected and used
+Extension GL_OES_depth_texture  detected and used
+Extension GL_OES_texture_stencil8  detected and used
+Extension GL_OES_texture_float  detected and used
+Extension GL_OES_texture_half_float  detected and used
+Extension GL_EXT_color_buffer_float  detected and used
+Extension GL_EXT_color_buffer_half_float  detected and used
+high precision float in fragment shader available and used
+Max vertex attrib: 16
+Extension GL_OES_standard_derivatives  detected and used
+Extension GL_ARM_shader_framebuffer_fetch detected and used
+Extension GL_OES_get_program_binary  detected and used
+Number of supported Program Binary Format: 1
+Max texture size: 16384
+Max Varying Vector: 31
+Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+Extension GL_EXT_texture_filter_anisotropic  detected and used
+Max Anisotropic filtering: 16
+Hardware vendor is Qualcomm
+GLSL 300 es supported
+GLSL 310 es supported and used
+GLSL 320 es supported
+Max Color Attachments: 8 / Draw buffers: 8
+sRGB surface supported
+EGLImage to Texture2D supported
+EGLImage to RenderBuffer supported
+ignore MipMap
+glGetError() always return GL_NOERROR
+Targeting OpenGL 2.1
+No hack in shader converter to define overloaded function with int
+Not trying to batch small subsequent glDrawXXXX
+try to use VBO
+Force texture for Attachment color0 on FBO
+Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+Force normals to be normalized on FPE shaders
+glX Will try to recycle EGL Surface
+Current folder is:/storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba
+--------- beginning of main
+D/jrelog  (27175): dlopen libgl4es_114.so success
+I/jrelog  (27175): updateLdLibPath: 0x7595a92068
+
+[1.430s][warning][jni,resolve] Re-registering of platform native method: jdk.internal.loader.NativeLibraries.load(Ljdk/internal/loader/NativeLibraries$NativeLibraryImpl;Ljava/lang/String;ZZZ)Z from code in a different classloader
+2026-01-18 11:23:08,447 main ERROR appender Console has no parameter that matches element Policies
+[11:23:08] [main/INFO]: ModLauncher running: args [--username, DraulerZon, --version, 1.20.1, --gameDir, /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba, --assetsDir, /storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/assets, --assetIndex, 5, --uuid, 00000000000000000000000000000000, --accessToken, â„â„â„â„â„â„â„â„, --clientId, ${clientid}, --xuid, , --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[11:23:08] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17-internal by N/A; OS Linux arch aarch64 version Android-14
+[11:23:10] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+Registered forkAndExec
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+[LWJGL] Enable the SharedLibraryLoader debug mode with -Dorg.lwjgl.util.DebugLoader=true for better diagnostics.
+[11:23:10] [main/INFO]: Trying GL version 4.6
+EGLBridge: Binding to OpenGL ES
+[11:23:10] [main/INFO]: Requested GL version 4.6 got version 0.0
+GLFW: Set size for window 498271285888, width=1638, height=756
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[11:23:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2394!/ Service=ModLauncher Env=CLIENT
+[11:23:11] [pool-2-thread-1/INFO]: GL info: Adreno (TM) 610 GL version 2.1 gl4es wrapper 1.1.5, PojavLauncherTeam & ptitSeb
+Thread[pool-2-thread-1,5,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[pool-2-thread-1,5,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[11:23:11] [main/INFO]: Found mod file balm-forge-1.20.1-7.3.38-all.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file curios-forge-5.14.1+1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file cursedfate-1.0.28.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file embeddium-0.3.31+mc1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file Fastload-Reforged-mc1.20.1-3.4.0.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file geckolib-forge-1.20.1-4.8.2.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file JujutsuCraft-ver43-forge-1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file kleiders_custom_renderer-7.4.1-forge-1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file kotlinforforge-4.3.0-all.jar of type LIBRARY with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file modernfix-forge-5.25.2+mc1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file oculus-mc1.20.1-1.8.0.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file photon-forge-1.20.1-1.1.16.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file player-animation-lib-forge-1.0.2-rc1+1.20.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file radium-mc1.20.1-0.12.4+git.26c9d8e.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file Sorcery-Age-1.5.3.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:11] [main/INFO]: Found mod file waystones-forge-1.20.1-14.1.18.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/mods}
+[11:23:12] [main/WARN]: Mod file /storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.5/fmlcore-1.20.1-47.4.5.jar is missing mods.toml file
+[11:23:12] [main/WARN]: Mod file /storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.5/javafmllanguage-1.20.1-47.4.5.jar is missing mods.toml file
+[11:23:12] [main/WARN]: Mod file /storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.5/lowcodelanguage-1.20.1-47.4.5.jar is missing mods.toml file
+[11:23:12] [main/WARN]: Mod file /storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.5/mclanguage-1.20.1-47.4.5.jar is missing mods.toml file
+[11:23:12] [main/INFO]: Found mod file fmlcore-1.20.1-47.4.5.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@87abc48
+[11:23:12] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.4.5.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@87abc48
+[11:23:12] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.4.5.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@87abc48
+[11:23:12] [main/INFO]: Found mod file mclanguage-1.20.1-47.4.5.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@87abc48
+[11:23:12] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@87abc48
+[11:23:12] [main/INFO]: Found mod file forge-1.20.1-47.4.5-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@87abc48
+[11:23:13] [main/INFO]: Found 10 dependencies adding them to mods collection
+[11:23:13] [main/INFO]: Found mod file kfflang-4.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file kuma-api-forge-20.1.12+1.20.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file mclib-20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file kffmod-4.3.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file MixinExtras-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file mixinextras-forge-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file kfflib-4.3.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file ldlib-forge-1.20.1-1.0.47.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file NanoLiveConfig-1.2.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:13] [main/INFO]: Found mod file jcpp-1.4.14.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5d1b9c3d
+[11:23:18] [main/INFO]: Compatibility level set to JAVA_17
+[11:23:18] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba, --assetsDir, /storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/assets, --uuid, 00000000000000000000000000000000, --username, DraulerZon, --assetIndex, 5, --accessToken, â„â„â„â„â„â„â„â„, --clientId, ${clientid}, --xuid, , --userType, msa, --versionType, release]
+[11:23:18] [main/INFO]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[11:23:18] [main/WARN]: Reference map 'mixins.kleiders_custom_renderer.refmap.json' for mixins.kleiders_custom_renderer.json could not be read. If this is a development environment you can ignore this message
+[11:23:19] [main/INFO]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 98 options available, 0 override(s) found
+[11:23:19] [main/INFO]: Applying Nashorn fix
+[11:23:19] [main/INFO]: Applied Forge config corruption patch
+[11:23:19] [main/INFO]: Configuring Minecraft's max.bg.threads option with 5 threads
+[11:23:19] [main/INFO]: Loaded configuration file for Embeddium: 66 options available, 3 override(s) found
+[11:23:19] [main/INFO]: Searching for graphics cards...
+[11:23:19] [main/WARN]: No graphics cards were found. Either you have no hardware devices supporting 3D acceleration, or something has gone terribly wrong!
+[11:23:19] [main/WARN]: Unable to determine desktop session type because the environment variable XDG_SESSION_TYPE is not set! Your user session may not be configured correctly.
+[11:23:20] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[11:23:24] [main/WARN]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[11:23:24] [main/WARN]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.entity.remove_streams.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.entity.remove_streams.HierarchicalModelMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[11:23:24] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[11:23:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11:23:28] [main/WARN]: File not found or not readable: /proc/stat
+[11:23:30] [pool-4-thread-1/INFO]: ModernFix reached bootstrap stage (28.58 s after launch)
+[11:23:30] [pool-4-thread-1/WARN]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[11:23:30] [pool-4-thread-1/WARN]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[11:23:31] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[11:23:31] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[11:23:31] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[11:23:35] [pool-4-thread-1/INFO]: Vanilla bootstrap took 5714 milliseconds
+[11:23:46] [pool-4-thread-1/WARN]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[11:23:49] [Render thread/WARN]: Assets URL 'union:/storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23154!/assets/.mcassetsroot' uses unexpected schema
+[11:23:49] [Render thread/WARN]: Assets URL 'union:/storage/emulated/0/Android/data/git.artdeell.mojo/files/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23154!/data/.mcassetsroot' uses unexpected schema
+[11:23:49] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:23:49] [Render thread/INFO]: Setting user: DraulerZon
+[11:23:49] [Render thread/INFO]: Bypassed Mojang DFU
+[11:23:50] [Render thread/ERROR]: Error parsing option value off for option Fullscreen: Not a boolean: "off"
+[11:23:50] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[11:23:50] [Render thread/ERROR]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.
+[11:23:50] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gui.SodiumGameOptions, which may cause instability.
+[11:23:50] [Render thread/INFO]: OpenGL Vendor: PojavLauncherTeam & ptitSeb
+[11:23:50] [Render thread/INFO]: OpenGL Renderer: Adreno (TM) 610
+[11:23:50] [Render thread/INFO]: OpenGL Version: 2.1 gl4es wrapper 1.1.5
+[11:23:51] [Render thread/INFO]: Debug functionality is disabled.
+[11:23:51] [Render thread/INFO]: DSA support not detected.
+[11:23:51] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[11:23:51] [Render thread/INFO]: Shaders are disabled
+[11:23:52] [modloading-worker-0/INFO]: LowDragLib is initializing on platform: Forge
+[11:23:53] [modloading-worker-0/INFO]: Photon is initializing on platform: Forge
+[11:23:53] [modloading-worker-0/INFO]: Forge mod loading, version 47.4.5, for MC 1.20.1 with MCP 20230612.114412
+[11:23:53] [modloading-worker-0/INFO]: MinecraftForge v47.4.5 Initialized
+[11:23:53] [modloading-worker-0/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI, which may cause instability.
+[11:23:53] [modloading-worker-0/INFO]: Registering config for waystones:common (COMMON) with 46 properties.
+[11:23:54] [modloading-worker-0/INFO]: Kotlin For Forge Enabled!
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[11:24:05] [Render thread/INFO]: Hardware information:
+[11:24:05] [Render thread/INFO]: CPU: 8x AArch64 Processor rev 0 (aarch64)
+[11:24:05] [Render thread/INFO]: GPU: Adreno (TM) 610 (Supports OpenGL 2.1 gl4es wrapper 1.1.5)
+[11:24:05] [Render thread/INFO]: OS: Linux (Android-14)
+[11:24:05] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.VertexFormatDescriptionImpl, which may cause instability.
+[11:24:05] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder, which may cause instability.
+[11:24:05] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer, which may cause instability.
+[11:24:10] [Worker-Main-2/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.client.multiplayer.AccountProfileKeyPairManager.m_253252_(AccountProfileKeyPairManager.java:129) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.multiplayer.AccountProfileKeyPairManager.m_252828_(AccountProfileKeyPairManager.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:10] [Render thread/WARN]: Failed to initialize Linux Narrator. Make sure you have libflite installed!
+[11:24:10] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources, ldlib
+[11:24:11] [Thread-0/INFO]: Please use /mfrc to reload any changed mod config files
+[11:24:11] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[11:24:11] [Worker-ResourceReload-6/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+[11:24:12] [Worker-ResourceReload-2/WARN]: File jujutsucraft:sounds/guard.ogg does not exist, cannot add it to event jujutsucraft:guard
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[Render thread,10,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+[11:24:13] [Worker-ResourceReload-5/ERROR]: Failed to load model jujutsu_kaisen:models/block/domain_sky.json
+com.google.gson.JsonParseException: JSON data was null or empty
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:533) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.m_111461_(BlockModel.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246478_(ModelManager.java:110) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:15] [Worker-ResourceReload-2/WARN]: Unsupported geometry json version for model jujutsucraft:geo/mahito_hand1.geo.json. Supported versions: 1.12.0
+[11:24:18] [Forge Version Check/INFO]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[11:24:19] [Forge Version Check/INFO]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[11:24:19] [Forge Version Check/INFO]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/domain_air.json' missing model for variant: 'jujutsu_kaisen:domain_air#'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_sky.json' missing model for variant: 'jujutsu_kaisen:fake_sky#'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/domain_sky.json' missing model for variant: 'jujutsu_kaisen:domain_sky#'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=15'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=14'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=13'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=12'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=9'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=11'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=10'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=7'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=8'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=5'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=6'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=3'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=4'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=1'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=2'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=0'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=10'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=11'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=12'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=13'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=14'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=15'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=9'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=8'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=7'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=6'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=5'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=4'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=3'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=2'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=1'
+[11:24:20] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=0'
+[11:24:20] [Forge Version Check/INFO]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[11:24:20] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:red_handle_katana#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/red_handle_katana.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:instant_body_of_distorted_killing#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/instant_body_of_distorted_killing.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:arm_blade#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/arm_blade.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:gun#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/gun.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:horse_legs#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/horse_legs.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:wings#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/wings.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:mythical_beast_amber#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/mythical_beast_amber.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:limbo#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/limbo.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:amanosakahoko
+java.io.FileNotFoundException: minecraft:models/amanosakahoko.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:loudspeaker_inumaki
+java.io.FileNotFoundException: minecraft:models/loudspeaker_inumaki.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:jugu
+java.io.FileNotFoundException: minecraft:models/jugu.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:hanami_hand
+java.io.FileNotFoundException: minecraft:models/hanami_hand.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:nichirintou2
+java.io.FileNotFoundException: minecraft:models/nichirintou2.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:gavel_big
+java.io.FileNotFoundException: minecraft:models/gavel_big.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Worker-ResourceReload-3/WARN]: minecraft:broom
+java.io.FileNotFoundException: minecraft:models/broom.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:24:20] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Current: 47.4.5 Target: 47.4.10
+[11:24:25] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:death_painting#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/death_paintings
+[11:24:25] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:mahito_hand_1#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/mahito_hand1
+[11:24:25] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:playful_cloud#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/playful_cloud
+[11:24:25] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:black_rope#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/hair_black
+[11:24:28] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:24:28] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:24:28] [Render thread/INFO]: OpenAL initialized on device Oboe Default
+[11:24:28] [Render thread/INFO]: Sound engine started
+[11:24:29] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[11:24:29] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:24:32] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[11:24:35] [Render thread/INFO]: Created: 8192x8192x0 minecraft:textures/atlas/particles.png-atlas
+[11:24:37] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:24:37] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:24:38] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[11:24:38] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.device.GLRenderDevice$ImmediateDrawCommandList, which may cause instability.
+[11:24:39] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[11:24:40] [Render thread/WARN]: Game took 98.477 seconds to start
+[11:25:02] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources, file/Bare Bones 1.20.zip, ldlib
+[11:25:04] [Worker-ResourceReload-5/WARN]: File jujutsucraft:sounds/guard.ogg does not exist, cannot add it to event jujutsucraft:guard
+[11:25:04] [Worker-ResourceReload-3/WARN]: Unsupported geometry json version for model jujutsucraft:geo/mahito_hand1.geo.json. Supported versions: 1.12.0
+[11:25:05] [Worker-ResourceReload-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[11:25:10] [Worker-ResourceReload-6/ERROR]: Failed to load model jujutsu_kaisen:models/block/domain_sky.json
+com.google.gson.JsonParseException: JSON data was null or empty
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:533) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.m_111461_(BlockModel.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246478_(ModelManager.java:110) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:14] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/stone.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:14] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/dirt.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:14] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/sand.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:14] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/red_sand.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:14] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/grass.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:15] [Worker-ResourceReload-5/WARN]: Unused frames in sprite minecraft:entity/conduit/wind: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+[11:25:15] [Worker-ResourceReload-4/WARN]: Invalid frame index on sprite minecraft:block/lava_still frame 10: 10
+[11:25:15] [Worker-ResourceReload-1/WARN]: Unused frames in sprite minecraft:entity/conduit/wind_vertical: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/white_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/orange_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/magenta_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/light_blue_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/yellow_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/lime_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/pink_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/gray_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/cyan_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/purple_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/blue_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/brown_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/green_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/red_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:16] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/black_concrete_powder.json' in resourcepack: 'file/Bare Bones 1.20.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/domain_air.json' missing model for variant: 'jujutsu_kaisen:domain_air#'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_sky.json' missing model for variant: 'jujutsu_kaisen:fake_sky#'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/domain_sky.json' missing model for variant: 'jujutsu_kaisen:domain_sky#'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=15'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=14'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=13'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=12'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=9'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=11'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=10'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=7'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=8'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=5'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=6'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=3'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=4'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=1'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=2'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_duration.json' missing model for variant: 'jujutsu_kaisen:fake_water_duration#level=0'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=10'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=11'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=12'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=13'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=14'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=15'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=9'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=8'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=7'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=6'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=5'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=4'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=3'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=2'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=1'
+[11:25:18] [Worker-ResourceReload-3/WARN]: Exception loading blockstate definition: 'jujutsu_kaisen:blockstates/fake_water_domain.json' missing model for variant: 'jujutsu_kaisen:fake_water_domain#level=0'
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:red_handle_katana#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/red_handle_katana.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:instant_body_of_distorted_killing#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/instant_body_of_distorted_killing.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:arm_blade#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/arm_blade.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:gun#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/gun.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:horse_legs#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/horse_legs.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:wings#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/wings.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:mythical_beast_amber#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/mythical_beast_amber.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: jujutsu_kaisen:limbo#inventory
+java.io.FileNotFoundException: jujutsu_kaisen:models/item/limbo.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:266) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:amanosakahoko
+java.io.FileNotFoundException: minecraft:models/amanosakahoko.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:loudspeaker_inumaki
+java.io.FileNotFoundException: minecraft:models/loudspeaker_inumaki.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:jugu
+java.io.FileNotFoundException: minecraft:models/jugu.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:hanami_hand
+java.io.FileNotFoundException: minecraft:models/hanami_hand.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:nichirintou2
+java.io.FileNotFoundException: minecraft:models/nichirintou2.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:gavel_big
+java.io.FileNotFoundException: minecraft:models/gavel_big.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:19] [Worker-ResourceReload-3/WARN]: minecraft:broom
+java.io.FileNotFoundException: minecraft:models/broom.json
+	at net.minecraft.client.resources.model.ModelBakery.m_119364_(ModelBakery.java:417) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119362_(ModelBakery.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119341_(ModelBakery.java:243) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.m_119306_(ModelBakery.java:384) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:150) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246505_(ModelManager.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:25:31] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:death_painting#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/death_paintings
+[11:25:31] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:mahito_hand_1#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/mahito_hand1
+[11:25:31] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:playful_cloud#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/playful_cloud
+[11:25:31] [Worker-ResourceReload-3/WARN]: Missing textures in model jujutsucraft:black_rope#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/hair_black
+[11:25:38] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:25:38] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:25:40] [Render thread/INFO]: OpenAL initialized on device Oboe Default
+[11:25:40] [Render thread/INFO]: Sound engine started
+[11:25:41] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[11:25:42] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:25:46] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[11:25:49] [Render thread/INFO]: Created: 8192x8192x0 minecraft:textures/atlas/particles.png-atlas
+[11:25:50] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:25:50] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:26:04] [Render thread/INFO]: Loaded 8 recipes
+[11:26:05] [Render thread/INFO]: Loaded 1482 advancements
+[11:26:05] [Render thread/INFO]: Loaded 12 curio slots
+[11:26:05] [Render thread/INFO]: Loaded 2 curio entities
+[11:26:05] [Render thread/WARN]: Initial datapack load took 9.242 s
+[11:27:35] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[11:27:35] [Server thread/INFO]: Generating keypair
+[11:27:35] [Server thread/WARN]: Configuration file /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/saves/jujutsu kaisen/serverconfig/jujutsu_kaisen-server.toml is not correct. Correcting
+[11:27:35] [Server thread/WARN]: Incorrect key progression was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.cursedEnergyAmount was corrected from null to its default, 500.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.cursedEnergyRegenerationAmount was corrected from null to its default, 0.6000000238418579. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.cursedEnergyCostAmount was corrected from null to its default, 1.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.maximumExperienceAmount was corrected from null to its default, 20000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.Grade4Exp was corrected from null to its default, 0.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.Grade3Exp was corrected from null to its default, 500.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.SemiGrade2Exp was corrected from null to its default, 1000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.Grade2Exp was corrected from null to its default, 1500.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.SemiGrade1Exp was corrected from null to its default, 2000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.Grade1Exp was corrected from null to its default, 2500.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.SpecialGrade1Exp was corrected from null to its default, 3000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.SpecialGradeExp was corrected from null to its default, 4000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.cursedObjectEnergyForGrade was corrected from null to its default, 100.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.bindingVowCooldown was corrected from null to its default, 0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.livesconfig was corrected from null to its default, 0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.reverseCursedTechniqueChance was corrected from null to its default, 20. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.totemRCTChanceMult was corrected from null to its default, 4. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.requiredExperienceForExperienced was corrected from null to its default, 5000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.wcsExpMahoReq was corrected from null to its default, 10000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.wcsExpOtherReq was corrected from null to its default, 10000.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.sorcererFleshRarity was corrected from null to its default, 20. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.curseFleshRarity was corrected from null to its default, 20. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.curseVillageSpawnRate was corrected from null to its default, 8. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.sorcererVillageSpawnRate was corrected from null to its default, 7. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.displayCaseRarity was corrected from null to its default, 11. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.displayCaseSpawnRange was corrected from null to its default, 64. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.disasterCurseSpawnRate was corrected from null to its default, 12. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.minimumSpawnDangerDistance was corrected from null to its default, 1000. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.experienceMultiplier was corrected from null to its default, 1.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.minimumBodyStealEXP was corrected from null to its default, 0.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.pointMultiplier was corrected from null to its default, 0.12999999523162842. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.pointPenalty was corrected from null to its default, 0.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.deathPenalty was corrected from null to its default, 0.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.minPoints was corrected from null to its default, 0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.maxPoints was corrected from null to its default, 0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.minExp was corrected from null to its default, 1.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.maxExp was corrected from null to its default, 0.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.pvpGain was corrected from null to its default, 1.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.blackFlashChanceRNG was corrected from null to its default, 200. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.blackFlashPower was corrected from null to its default, 2.5. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.blackFlashDmgCap was corrected from null to its default, 40.0. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.newShadowStyleForAll was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.incarnatedSimpleDomain was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.realisticShikigami was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.realisticCurses was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.sorcererSaturation was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.curseSaturation was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.foodCERegen was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.playerBodySteal was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.playerMimicry was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.mimicryBodyStealCompat was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.bodyStealTraits was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.bodyStealEXPReset was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.bodyStealReroll was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.MBADeath was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.MBAEXPReset was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.MBAReroll was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.wcsCutAnything was corrected from null to its default, true. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.hrRequiredForISOH was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.playerRequiredForRCT was corrected from null to its default, false. 
+[11:27:35] [Server thread/WARN]: Incorrect key progression.playerRequiredForGradeUp was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.sorcererHealingAmount was corrected from null to its default, 0.10000000149011612. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.curseHealingAmount was corrected from null to its default, 0.15000000596046448. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.curseDamageMult was corrected from null to its default, 0.699999988079071. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.curseDefenseMult was corrected from null to its default, 1.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.sorcererDamageMult was corrected from null to its default, 0.699999988079071. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.sorcererDefenseMult was corrected from null to its default, 1.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.jujutsuDefenseMult was corrected from null to its default, 1.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.hrDefenseMult was corrected from null to its default, 1.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerDamageMult was corrected from null to its default, 1.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.npcvsnpcDamageMult was corrected from null to its default, 0.8500000238418579. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerHPMult was corrected from null to its default, 15.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.npcHPMult was corrected from null to its default, 15.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerCEArmorMult was corrected from null to its default, 8.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerCEArmorMin was corrected from null to its default, 12.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerCEArmorMax was corrected from null to its default, 20.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerMaxSpeed was corrected from null to its default, 0.3199999928474426. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.HRMaxSpeed was corrected from null to its default, 0.800000011920929. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerHPMin was corrected from null to its default, 40. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.hrHPMult was corrected from null to its default, 15.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.hrHPMin was corrected from null to its default, 40. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.npcHPMin was corrected from null to its default, 40. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.playerM1Mult was corrected from null to its default, 2.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.limitlessNoSixEyesMult was corrected from null to its default, 1.0. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.sixEyesMult was corrected from null to its default, 0.5. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.perfectBodyMult was corrected from null to its default, 1.5. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.uniqueTechniques was corrected from null to its default, true. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.uniqueTraits was corrected from null to its default, true. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.uniqueTraitList was corrected from null to its default, [SIX_EYES, PERFECT_BODY]. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.destruction was corrected from null to its default, true. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.turboMode was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.entitySlicing was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key misc.chantRequiredForWCS was corrected from null to its default, true. 
+[11:27:36] [Server thread/WARN]: Incorrect key veils was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key veils.minimumVeilSize was corrected from null to its default, 4. 
+[11:27:36] [Server thread/WARN]: Incorrect key veils.maximumVeilSize was corrected from null to its default, 64. 
+[11:27:36] [Server thread/WARN]: Incorrect key domains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key domains.minimumDomainSize was corrected from null to its default, 0.5. 
+[11:27:36] [Server thread/WARN]: Incorrect key domains.maximumDomainSize was corrected from null to its default, 1.5. 
+[11:27:36] [Server thread/WARN]: Incorrect key chants was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key chants.maximumChantCount was corrected from null to its default, 5. 
+[11:27:36] [Server thread/WARN]: Incorrect key chants.minimumChantLength was corrected from null to its default, 2. 
+[11:27:36] [Server thread/WARN]: Incorrect key chants.maximumChantLength was corrected from null to its default, 24. 
+[11:27:36] [Server thread/WARN]: Incorrect key chants.chantSimilarityThreshold was corrected from null to its default, 0.25. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.simpleDomainCost was corrected from null to its default, 25. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.simpleDomainEnlargementCost was corrected from null to its default, 50. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.fallingBlossomEmotionCost was corrected from null to its default, 25. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.hollowWickerBasketCost was corrected from null to its default, 25. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.domainExpansionCost was corrected from null to its default, 200. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.domainAmplificationCost was corrected from null to its default, 50. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.zeroPointTwoSecondDomainExpansionCost was corrected from null to its default, 75. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.miniUzumakiCost was corrected from null to its default, 50. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.maximumUzumakiCost was corrected from null to its default, 75. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.maximumMeteorCost was corrected from null to its default, 100. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.ceBombCost was corrected from null to its default, 25. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.ceBlastCost was corrected from null to its default, 25. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.rct2Cost was corrected from null to its default, 50. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.rct3Cost was corrected from null to its default, 100. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.outputRCTCost was corrected from null to its default, 75. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.maximumCopiedTechniques was corrected from null to its default, 3. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.maximumStolenTechniques was corrected from null to its default, 2. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.unlockableSorcererTechniques was corrected from null to its default, [CURSE_MANIPULATION, LIMITLESS, SHRINE, CURSED_SPEECH, MIMICRY, DISASTER_FLAMES, DISASTER_TIDES, DISASTER_PLANTS, ANGEL, BRAIN_TRANSPLANT, TEN_SHADOWS, BOOGIE_WOOGIE, PROJECTION_SORCERY, RATIO, MYTHICAL_BEAST_AMBER, TECHNIQUELESS]. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.unlockableTechniques was corrected from null to its default, [CURSE_MANIPULATION, LIMITLESS, SHRINE, CURSED_SPEECH, MIMICRY, DISASTER_FLAMES, DISASTER_TIDES, DISASTER_PLANTS, ANGEL, IDLE_TRANSFIGURATION, TEN_SHADOWS, BOOGIE_WOOGIE, PROJECTION_SORCERY, RATIO, MYTHICAL_BEAST_AMBER, TECHNIQUELESS]. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.sorcererTraitList was corrected from null to its default, [PRODIGY, PERFECT_BODY, RCT_OUTPUT, INCARNATED, VESSEL, SIX_EYES]. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.curseTraitList was corrected from null to its default, [PRODIGY, PERFECT_BODY, CURSED_WOMB, DEATH_PAINTING]. 
+[11:27:36] [Server thread/WARN]: Incorrect key abilities.incompatibleTraits was corrected from null to its default, [PERFECT_BODY,SIX_EYES, CURSED_WOMB,DEATH_PAINTING]. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.traitRolls was corrected from null to its default, 3. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.minTraits was corrected from null to its default, 0. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.maxTraits was corrected from null to its default, 6. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.natureTraitCost was corrected from null to its default, 1. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.natureTraitModifier was corrected from null to its default, 2. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.traitScalingModifier was corrected from null to its default, 2. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.noTraitWeight was corrected from null to its default, 800. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.cursedEnergyNatureRarity was corrected from null to its default, 15. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.curseRarity was corrected from null to its default, 4. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.sixEyesWeight was corrected from null to its default, 4. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.heavenlyRestrictionRarity was corrected from null to its default, 30. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.vesselWeight was corrected from null to its default, 12. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.perfectBodyWeight was corrected from null to its default, 4. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.incarnatedWeight was corrected from null to its default, 36. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.rctOutputWeight was corrected from null to its default, 30. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.prodigyWeight was corrected from null to its default, 8. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.cursedWombWeight was corrected from null to its default, 24. 
+[11:27:36] [Server thread/WARN]: Incorrect key rarity.deathPaintingWeight was corrected from null to its default, 16. 
+[11:27:36] [Server thread/WARN]: Configuration file /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/saves/jujutsu kaisen/serverconfig/curios-server.toml is not correct. Correcting
+[11:27:36] [Server thread/WARN]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
+[11:27:36] [Server thread/WARN]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
+[11:27:36] [Server thread/WARN]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
+[11:27:36] [Server thread/WARN]: Configuration file /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/saves/jujutsu kaisen/serverconfig/forge-server.toml is not correct. Correcting
+[11:27:36] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[11:27:36] [Server thread/WARN]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[11:27:38] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[11:27:46] [Worker-Main-5/INFO]: Instantiating Mojang DFU
+[11:27:49] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 709 milliseconds
+[11:27:58] [Worker-Main-6/WARN]: Empty height range: [6 above bottom--1 absolute]
+[11:28:00] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=560}
+[11:28:00] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=5, z=560}
+[11:28:00] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=4, z=560}
+[11:28:00] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=560}
+[11:28:00] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=560}
+[11:28:00] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=3, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=2, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=560}
+[11:28:02] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=560}
+[11:28:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=555}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=556}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=557}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=558}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=4, z=546}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=2, z=546}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=494}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=494}
+[11:28:14] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=494}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=508}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=508}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=508}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=506}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=506}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=506}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=496}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=496}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=496}
+[11:28:14] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=516}
+[11:28:14] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=516}
+[11:28:14] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=516}
+[11:28:14] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=518}
+[11:28:14] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=518}
+[11:28:14] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=518}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=556}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=555}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=557}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=558}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=558}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=556}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=557}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=555}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=2, z=552}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=552}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=552}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=552}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=551}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=2, z=551}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=549}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=2, z=549}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=549}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=551}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=548}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=548}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=548}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=548}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=548}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=550}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=549}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=551}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=551}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=549}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=2, z=550}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=2, z=549}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=3, z=546}
+[11:28:14] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=2, z=546}
+[11:28:17] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=521}
+[11:28:17] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=521}
+[11:28:17] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=512}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=530}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=529}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=530}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=530}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=529}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=529}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=533}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=532}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=533}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=533}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=532}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=532}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=536}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=535}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=536}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=536}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=535}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=535}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=539}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=538}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=539}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=539}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=538}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=538}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=528}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=528}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=528}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=3, z=543}
+[11:28:18] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=2, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=533}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=532}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=540}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=539}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=538}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=537}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=536}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=536}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=536}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=537}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=538}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=539}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=540}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=540}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=532}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=530}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=530}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=532}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=533}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=533}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=533}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=531}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=530}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=530}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=532}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=529}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=529}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=529}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=529}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=529}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=528}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=528}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=528}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=6, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=2, z=543}
+[11:28:18] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=4, z=543}
+[11:28:21] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=521}
+[11:28:21] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=512}
+[11:28:25] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=2, z=543}
+[11:28:25] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=4, z=543}
+[11:28:25] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=3, z=546}
+[11:28:25] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-339, y=2, z=546}
+[11:28:26] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=521}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=537}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=536}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=536}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=536}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=537}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=531}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=530}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=529}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=533}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=532}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=536}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=535}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=536}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=536}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=535}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=535}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=528}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=528}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=528}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=528}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=528}
+[11:28:28] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=528}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=540}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=539}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=538}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=538}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=539}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=540}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=540}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=539}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=538}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=539}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=539}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=538}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=538}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=6, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=3, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=2, z=543}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=2, z=552}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=552}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=552}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=552}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=551}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=2, z=551}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=549}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=2, z=549}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=549}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=551}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=548}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=548}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=548}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=548}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=548}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=550}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=549}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=551}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=551}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=549}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=2, z=550}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=2, z=549}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=4, z=546}
+[11:28:29] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=2, z=546}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=556}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=555}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=557}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=558}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=558}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=556}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=557}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=555}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=555}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=556}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=557}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=558}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=3, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=4, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=5, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=5, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=5, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=4, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-350, y=3, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=4, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=2, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=560}
+[11:28:30] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=560}
+[11:28:31] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=516}
+[11:28:31] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=516}
+[11:28:31] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=516}
+[11:28:31] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=518}
+[11:28:31] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=518}
+[11:28:31] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=518}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=494}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=494}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=494}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=496}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=496}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=496}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=508}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=508}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=508}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-323, y=4, z=506}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-324, y=4, z=506}
+[11:28:31] [Worker-Main-5/ERROR]: Hanging entity at invalid position: BlockPos{x=-325, y=4, z=506}
+[11:28:37] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=159, y=5, z=212}
+[11:28:37] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=159, y=4, z=212}
+[11:28:37] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=158, y=5, z=212}
+[11:28:37] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=158, y=4, z=212}
+[11:28:37] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=163, y=4, z=213}
+[11:28:37] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=160, y=5, z=212}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=669}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=669}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[11:28:41] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=687}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=687}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[11:28:42] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=687}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=687}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[11:28:43] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[11:28:45] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-346, y=2, z=627}
+[11:28:45] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=627}
+[11:28:45] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=627}
+[11:28:45] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-337, y=4, z=626}
+[11:28:45] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-337, y=4, z=628}
+[11:28:45] [Worker-Main-4/ERROR]: Hanging entity at invalid position: BlockPos{x=-337, y=4, z=627}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=533}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=3, z=532}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=3, z=536}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=536}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=3, z=536}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=5, z=532}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=4, z=530}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=530}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-341, y=2, z=532}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-343, y=4, z=533}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=533}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=4, z=533}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=531}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=530}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=4, z=530}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-345, y=2, z=532}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=4, z=529}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=3, z=529}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-342, y=2, z=529}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=5, z=529}
+[11:28:46] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-344, y=2, z=529}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=607}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-347, y=3, z=608}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=669}
+[11:28:48] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=669}
+[11:28:48] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[11:28:48] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[11:28:48] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=671}
+[11:28:48] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=671}
+[11:28:48] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=669}
+[11:28:48] [Worker-Main-7/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=669}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=530}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=529}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=530}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=530}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=529}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=529}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=533}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=532}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=533}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=533}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=532}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=532}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=536}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=3, z=535}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=536}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=536}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=5, z=535}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-351, y=4, z=535}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=3, z=528}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=3, z=528}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=4, z=528}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-349, y=5, z=528}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=5, z=528}
+[11:28:52] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-348, y=4, z=528}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=687}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=687}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=685}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=685}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=683}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=683}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=681}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=681}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=679}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=677}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=677}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=675}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=675}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-278, y=2, z=673}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=673}
+[11:28:55] [Worker-Main-6/ERROR]: Hanging entity at invalid position: BlockPos{x=-280, y=2, z=679}
+[11:29:06] [Render thread/INFO]: Time elapsed: 356137 ms
+[11:29:06] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[11:29:07] [Server thread/INFO]: Changing view distance to 2, from 10
+[11:29:07] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[11:29:07] [Render thread/WARN]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[11:29:08] [Render thread/WARN]: Failed to find a usable hardware address from the network interfaces; using random bytes: 0e:6b:f6:70:9b:8f:d0:42
+[11:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[11:29:09] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[11:29:09] [Server thread/INFO]: DraulerZon[local:E:5ccc6af7] logged in with entity id 2918 at (-23.5, 67.0, 58.5)
+[11:29:09] [Server thread/INFO]: Using enhanced recipe sync for player DraulerZon
+[11:29:09] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[11:29:09] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[11:29:09] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[11:29:09] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager, which may cause instability.
+[11:29:09] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.format.ChunkMeshFormats, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.format.ChunkMeshAttribute, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.attribute.GlVertexFormat$Builder, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.attribute.GlVertexAttributeFormat, which may cause instability.
+[11:29:10] [Server thread/INFO]: DraulerZon entrou no jogo
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.DefaultChunkRenderer, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.ShaderChunkRenderer, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.builder.ChunkMeshBufferBuilder, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.buffers.BakedChunkModelBuilder, which may cause instability.
+[11:29:10] [Render thread/WARN]: Error loading class: net/fabricmc/fabric/api/blockview/v2/FabricBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.blockview.v2.FabricBlockView)
+[11:29:10] [Render thread/WARN]: Error loading class: net/fabricmc/fabric/api/rendering/data/v1/RenderAttachedBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.rendering.data.v1.RenderAttachedBlockView)
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.smooth.SmoothLightPipeline, which may cause instability.
+[11:29:10] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline, which may cause instability.
+[11:29:10] [Render thread/INFO]: Started 2 worker threads
+[11:29:11] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.shader.ShaderType, which may cause instability.
+[11:29:11] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.shader.GlProgram, which may cause instability.
+[11:29:15] [Server thread/INFO]: DraulerZon alcanÃ§ou o progresso [Jujutsu Kaisen]
+[11:29:15] [Server thread/INFO]: DraulerZon alcanÃ§ou o progresso [Start Jujutsu Craft]
+[11:29:15] [Render thread/INFO]: [System] [CHAT] DraulerZon alcanÃ§ou o progresso [Jujutsu Kaisen]
+[11:29:16] [Render thread/INFO]: [System] [CHAT] DraulerZon alcanÃ§ou o progresso [Start Jujutsu Craft]
+[11:29:16] [Render thread/INFO]: Loaded 79 advancements
+[11:29:16] [Server thread/INFO]: DraulerZon concluiu o desafio [RestriÃ§Ã£o Celestial]
+[11:29:16] [Server thread/ERROR]: Exception caught during firing event: virtuoel/pehkui/api/ScaleTypes
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: class radon.jujutsu_kaisen.event.JJKEventHandler$JJKEventHandlerForgeEvents onLivingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		2: ASM: class radon.jujutsu_kaisen.client.visual.ClientVisualHandler onLivingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		3: ASM: class radon.jujutsu_kaisen.ability.limitless.Infinity$InfinityForgeEvents onLivingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		4: ASM: class cursedfate.init.EntityAnimationFactory onEntityTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		5: ASM: class net.mcreator.jujutsucraft.procedures.EntityActiveProcedure onEntityTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		6: ASM: class net.mcreator.jujutsucraft.procedures.BlasterAwayProcedure onEntityTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		7: ASM: class net.mcreator.jujutsucraft.init.EntityAnimationFactory onEntityTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		8: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@42bd1ae9 tick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+java.lang.NoClassDefFoundError: virtuoel/pehkui/api/ScaleTypes
+	at TRANSFORMER/jujutsu_kaisen@1.0-SNAPSHOT/radon.jujutsu_kaisen.event.JJKEventHandler$JJKEventHandlerForgeEvents.onLivingTick(JJKEventHandler.java:310)
+	at TRANSFORMER/jujutsu_kaisen@1.0-SNAPSHOT/radon.jujutsu_kaisen.event.__JJKEventHandlerForgeEvents_onLivingTick_LivingTickEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.5/net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:265)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2258)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_8119_(Player.java:241)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.Connection.m_129483_(Connection.java:263)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.ClassNotFoundException: virtuoel.pehkui.api.ScaleTypes
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 18 more
+
+[11:29:16] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.immediate.model.BakedModelEncoder, which may cause instability.
+[11:29:16] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.serializers.VertexSerializerRegistryImpl, which may cause instability.
+[11:29:16] [Render thread/INFO]: [System] [CHAT] DraulerZon concluiu o desafio [RestriÃ§Ã£o Celestial]
+[11:29:16] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.region.RenderRegion$DeviceResources, which may cause instability.
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000007450e301d8, pid=27175, tid=27216
+#
+# JRE version: OpenJDK Runtime Environment (17.0.17) (build 17.0.17-internal+0-adhoc.runner.openjdk-17)
+# Java VM: OpenJDK 64-Bit Server VM (17.0.17-internal+0-adhoc.runner.openjdk-17, mixed mode, tiered, compressed oops, compressed class ptrs, g1 gc, linux-aarch64)
+# Problematic frame:
+# C  [libgl4es_114.so+0x1991d8]
+#
+# Core dump will be written. Default location: core.27175 (may not exist)
+#
+# An error report file with more information is saved as:
+# /storage/emulated/0/Android/data/git.artdeell.mojo/files/instances/1.20.1-47.4.5-aec05b9d-2171-469a-ac55-341cc193e9ba/hs_err_pid27175.log
+[thread 30947 also had an error]
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
